@@ -14,7 +14,6 @@ import 'bootstrap-vue/dist/bootstrap-vue.css';
 Vue.use(BootstrapVue);
 // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin);
-
 require('./bootstrap');
 
 window.Vue = require('vue').default;

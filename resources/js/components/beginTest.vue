@@ -29,5 +29,4 @@
 
 <style scoped>
 @import "../../css/app.css";
-
 </style>
