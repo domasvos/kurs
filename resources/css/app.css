@@ -1,0 +1,22 @@
+.line {
+    background: #1d68a7;
+    padding: 7.5%;
+}
+.vline
+{
+    position:absolute;
+    top:0;
+    left:50%;
+    bottom:0; margin:0;
+    border:none;
+    border-right:solid 2px black;
+    z-index:0;
+}
+.vertical
+{
+    border-left: 6px solid black;
+    height: 350px;
+    left: 50%;
+    justify-self: center;
+
+}
