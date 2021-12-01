@@ -28,6 +28,9 @@ Route::get('/klausk', function () {
 Route::get('/istaigos', function () {
     return view('istaigos');
 });
+Route::get('/quiz/klausimas', function () {
+    return view('/quiz/klausimas');
+});
 
 Auth::routes();
 

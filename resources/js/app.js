@@ -31,6 +31,7 @@ window.Vue = require('vue').default;
 
 Vue.component('front-view', require('./components/FrontView.vue').default);
 Vue.component('begin-test', require('./components/beginTest.vue').default);
+Vue.component('klausimas-enter', require('./components/klausTest.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -40,4 +41,7 @@ Vue.component('begin-test', require('./components/beginTest.vue').default);
 
 const app = new Vue({
     el: '#app',
+    data: {
+        image: '../../public/images/2.png'
+    }
 });
