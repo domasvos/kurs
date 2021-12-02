@@ -74,22 +74,62 @@
         </style>
     </head>
     <body class="antialiased">
-    <div>
-        <div class="container">
+    <div id="klausimas_1" class="center">
+        <div class="container col-12">
             <input type="checkbox" class="myCheckbox_hide" id="myCheckbox1" />
             <label for="myCheckbox1"><img src="../../../images/2.png" /> Answer A</label>
             <input type="checkbox" class="myCheckbox_hide" id="myCheckbox2" />
             <label for="myCheckbox2"><img src="../../../images/2.png" /> Answer B</label>
         </div>
-        <div class="container">
+        <div class="container col-12">
             <input type="checkbox" class="myCheckbox_hide" id="myCheckbox3" />
             <label for="myCheckbox3"><img src="../../../images/2.png" /> Answer C</label>
             <input type="checkbox" class="myCheckbox_hide" id="myCheckbox4" />
             <label for="myCheckbox4"><img src="../../../images/2.png" /> Answer D</label>
         </div>
-        <div><button type="button" class="btn btn-dark">Kitas klausimas</button></div>
+        <button onclick="nextQuestion()" type="button" class="btn btn-dark">Kitas klausimas</button>
+    </div>
+    <div id="klausimas_2" class="center new">
+        <div class="container col-12">
+            <input type="checkbox" class="myCheckbox_hide" id="myCheckbox5" />
+            <label for="myCheckbox5"><img src="../../../images/2.png" /> Atsakymas A</label>
+            <input type="checkbox" class="myCheckbox_hide" id="myCheckbox6" />
+            <label for="myCheckbox6"><img src="../../../images/2.png" /> Atsakymas B</label>
+        </div>
+        <div class="container col-12">
+            <input type="checkbox" class="myCheckbox_hide" id="myCheckbox7" />
+            <label for="myCheckbox7"><img src="../../../images/2.png" /> Atsakymas C</label>
+            <input type="checkbox" class="myCheckbox_hide" id="myCheckbox8" />
+            <label for="myCheckbox8"><img src="../../../images/2.png" /> Atsakymas D</label>
+        </div>
+        <button onclick="ats()" type="button" class="btn btn-dark">Pabaigti testa</button>
+
+    </div>
+    <div id="atsakymo_pvz" class="container col-12 center new">
+        <button onclick="window.location.href='/quiz/testas'" type="button" class="btn btn-dark">Bandyti dar karta</button>
+        <button onclick="window.location.href='/kur_stot'" type="button" class="btn btn-dark">Kur Stoti</button>
+        <button onclick="window.location.href='/home'" type="button" class="btn btn-dark">Paskyra</button>
     </div>
 
     </body>
 </html>
 <script src="{{ mix('/js/app.js') }}"></script>
+<style>
+.center {
+    text-align: center;
+}
+.new {
+    display: none;
+}
+</style>
+<script>
+    function nextQuestion(){
+        document.getElementById("klausimas_1").style.display="none";
+        document.getElementById("klausimas_2").style.display="block";
+    }
+    function ats(){
+        document.getElementById("klausimas_2").style.display="none";
+        document.getElementById("atsakymo_pvz").style.display="block";
+    }
+</script>
+
