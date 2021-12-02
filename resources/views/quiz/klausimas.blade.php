@@ -107,7 +107,7 @@
     </div>
     <div id="atsakymo_pvz" class="container col-12 center new">
         <button onclick="window.location.href='/quiz/testas'" type="button" class="btn btn-dark">Bandyti dar karta</button>
-        <button onclick="window.location.href='/kur_stot'" type="button" class="btn btn-dark">Kur Stoti</button>
+        <button onclick="window.location.href='/istaigos'" type="button" class="btn btn-dark">Kur Stoti</button>
         <button onclick="window.location.href='/home'" type="button" class="btn btn-dark">Paskyra</button>
     </div>
 
