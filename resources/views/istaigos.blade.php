@@ -1,86 +1,208 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Mokymo įstaigos</title>
+    <!-- Description, Keywords and Author -->
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your,Keywords">
+    <meta name="author" content="ResponsiveWebInc">
 
-        <title>Istaigos</title>
-    </head>
-    <body class="antialiased">
-    <div class="mx-auto">
-        <div class="card">
-            <img src="#" alt="VDU" style="width:100%">
-            <h1>Vytauto didziojo universitetas</h1>
-            <p class="price">studentas@vdu.lt</p>
-            <p>S. Daukanto g. 27-206, 44244, Kaunas</p>
-            <p>
-                <button onclick="window.location.href='https://www.vdu.lt/en/'">Daugiau informacijos</button>
-            </p>
-        </div>
-        <div class="card">
-            <img src="#" alt="VU" style="width:100%">
-            <h1>Vilniaus Universitetas</h1>
-            <p class="price">konsultavimas@vu.lt</p>
-            <p>Universiteto g. 3, LT-01513 Vilnius</p>
-            <p>
-                <button onclick="window.location.href='https://www.vu.lt/en/'">Daugiau informacijos</button>
-            </p>
-        </div>
-        <div class="card">
-            <img src="#" alt="KTU" style="width:100%">
-            <h1>Kauno Tecnologiju Universitetas</h1>
-            <p class="price">ktu@ktu.lt</p>
-            <p>K. Donelaičio g. 73, LT-44249 Kaunas</p>
-            <p>
-                <button onclick="window.location.href='https://ktu.edu/'">Daugiau informacijos</button>
-            </p>
-        </div>
-        <div class="card">
-            <img src="#" alt="VGTU" style="width:100%">
-            <h1>Vilniaus Gedimino Technikos Universitetas</h1>
-            <p class="price">vilniustech@vilniustech.lt</p>
-            <p>Saulėtekio al. 11, 10223 Vilnius</p>
-            <p>
-                <button onclick="window.location.href='https://vilniustech.lt/'">Daugiau informacijos</button>
-            </p>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="{{ asset('css/font-awesome.min.css') }}" rel="stylesheet" type="text/css" >
+
+    <link rel="shortcut icon" href="#">
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <!-- banner -->
+    <div class="banner">
+        <div class="container">
+            <!-- heading -->
+            <h2>Išsirink norimą mokymo įstaigą!</h2>
         </div>
     </div>
-    </body>
+    <!-- banner end -->
+
+    <!-- works -->
+    <div class="works" id="work">
+        <div class="container">
+            <!-- default heading -->
+            <div class="default-heading">
+                <!-- heading -->
+                <h2>Mokymo įstaigos</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <!-- work item -->
+                    <div class="work-item">
+                        <!-- work details image -->
+                        <img class="img-responsive" src="images/work/3.jpeg" alt="" />
+                        <!-- heading -->
+                        <h3><a href="https://www.vdu.lt/en/">VDU</a></h3>
+                        <!-- brand org -->
+                        <span class="org">Vytauto Didžiojo Universitetas</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <!-- work item -->
+                    <div class="work-item">
+                        <!-- work details image -->
+                        <img class="img-responsive" src="images/work/1.jpeg" alt="" />
+                        <!-- heading -->
+                        <h3><a href="https://ktu.edu/">KTU</a></h3>
+                        <!-- brand org -->
+                        <span class="org">Kauno Technologijų Universitetas</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <!-- work item -->
+                    <div class="work-item">
+                        <!-- work details image -->
+                        <img class="img-responsive" src="images/work/2.jpeg" alt="" />
+                        <!-- heading -->
+                        <h3><a href="https://www.vu.lt/en/">VU</a></h3>
+                        <!-- brand org -->
+                        <span class="org">Vilniaus Universitetas</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <!-- work item -->
+                    <div class="work-item">
+                        <!-- work details image -->
+                        <img class="img-responsive" src="images/work/4.jpeg" alt="" />
+                        <!-- heading -->
+                        <h3><a href="https://vilniustech.lt/">VGTU</a></h3>
+                        <!-- brand org -->
+                        <span class="org">Vilniaus Gedimino Technikos Universitetas</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <!-- work item -->
+                    <div class="work-item">
+                        <!-- work details image -->
+                        <img class="img-responsive" src="images/work/7.jpeg" alt="" />
+                        <!-- heading -->
+                        <h3><a href="https://www.ism.lt/en/homepage/">ISM</a></h3>
+                        <!-- brand org -->
+                        <span class="org">Vadybos ir Ekonomikos Universitetas</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <!-- work item -->
+                    <div class="work-item">
+                        <!-- work details image -->
+                        <img class="img-responsive" src="images/work/5.jpeg" alt="" />
+                        <!-- heading -->
+                        <h3><a href="https://www.ku.lt/">KU</a></h3>
+                        <!-- brand org -->
+                        <span class="org">Klaipėdos universitetas</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <!-- work item -->
+                    <div class="work-item">
+                        <!-- work details image -->
+                        <img class="img-responsive" src="images/work/6.jpeg" alt="" />
+                        <!-- heading -->
+                        <h3><a href="http://www.lsmuni.lt/">LSMU</a></h3>
+                        <!-- brand org -->
+                        <span class="org">Lietuvos sveikatos mokslų universitetas</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <!-- work item -->
+                    <div class="work-item">
+                        <!-- work details image -->
+                        <img class="img-responsive" src="images/work/8.jpeg" alt="" />
+                        <!-- heading -->
+                        <h3><a href="https://lt.ehu.lt/">EHU</a></h3>
+                        <!-- brand org -->
+                        <span class="org">Europos humanitarinis universitetas</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- team -->
+    <div class="team" id="team">
+        <div class="container">
+            <!-- default heading -->
+            <div class="default-heading">
+                <!-- heading -->
+                <h2>Our Team</h2>
+                <!-- paragraph -->
+                <p>There are now a set available here in three<br>colours and in a banner sizes.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <!-- team member -->
+                    <div class="member">
+                        <!-- team member image -->
+                        <img class="img-responsive" src="images/team/1.jpg" alt="" />
+                        <!-- member details / heading -->
+                        <h4><a href="#">John Doe</a></h4>
+                        <!-- paragraph -->
+                        <p>Short description about how cool John Doe is!</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <!-- team member -->
+                    <div class="member">
+                        <!-- team member image -->
+                        <img class="img-responsive" src="images/team/2.jpg" alt="" />
+                        <!-- member details / heading -->
+                        <h4><a href="#">John Doe</a></h4>
+                        <!-- paragraph -->
+                        <p>Short description about how cool John Doe is!</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <!-- team member -->
+                    <div class="member">
+                        <!-- team member image -->
+                        <img class="img-responsive" src="images/team/1.jpg" alt="" />
+                        <!-- member details / heading -->
+                        <h4><a href="#">John Doe</a></h4>
+                        <!-- paragraph -->
+                        <p>Short description about how cool John Doe is!</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <!-- team member -->
+                    <div class="member">
+                        <!-- team member image -->
+                        <img class="img-responsive" src="images/team/2.jpg" alt="" />
+                        <!-- member details / heading -->
+                        <h4><a href="#">John Doe</a></h4>
+                        <!-- paragraph -->
+                        <p>Short description about how cool John Doe is!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- Javascript files -->
+<!-- jQuery -->
+<script type="text/javascript" src="{{ asset('js/jquery.js') }}"></script>
+<!-- Respond JS for IE8 -->
+<script type="text/javascript" src="{{ asset('js/respond.min.js') }}"></script>
+<!-- HTML5 Support for IE -->
+<script type="text/javascript" src="{{ asset('js/html5shiv.js') }}"></script>
+<!-- Custom JS -->
+<script type="text/javascript" src="{{ asset('js/custom.js') }}"></script>
+<link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet" type="text/css" >
+<link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" >
+<link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" >
+</body>
 </html>
-<style>
-    .card {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        max-width: 300px;
-        margin: auto;
-        text-align: center;
-        font-family: arial;
-    }
-    .mx-auto {
-        margin-right: auto !important;
-        margin-left: auto !important;
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-    }
 
-    .price {
-        color: grey;
-        font-size: 22px;
-    }
-
-    .card button {
-        border: none;
-        outline: 0;
-        padding: 12px;
-        color: white;
-        background-color: #000;
-        text-align: center;
-        cursor: pointer;
-        width: 100%;
-        font-size: 18px;
-    }
-
-    .card button:hover {
-        opacity: 0.7;
-    }
-</style>

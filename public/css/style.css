@@ -1,0 +1,196 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+/*
+ * Basic CSS starts
+ */
+
+body{
+	font-family: 'Open Sans', Sans Serif;
+	font-weight: 400;
+	color: #545454;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Open Sans', Sans Serif;
+	font-weight: 600;
+}
+
+p{
+	margin:0;
+	padding:0;
+}
+
+a{
+	text-decoration: none;
+	color: #ec4949;
+}
+.col-md-3 {
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+a:hover{
+	text-decoration: none;
+	color: #993333;
+}
+h2 {
+    color: #993333;
+}
+a:hover,a:active,a:focus {
+	outline: 0;
+}
+
+hr{
+
+}
+
+:focus {
+	outline:none;
+}
+
+::-moz-focus-inner {
+	border:0;
+}
+
+/*
+ * Basic CSS ends
+ */
+
+header .navbar {
+	margin: 0;
+	border-radius: 0;
+	border-bottom: 1px solid #ec4949;
+	box-shadow: 0 1px 15px rgba(0,0,0,0.2);
+}
+header .navbar-nav>li>a {
+	margin: 15px 3px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border: 1px solid transparent;
+	border-radius: 3px;
+}
+
+/*
+ * Banner
+ */
+
+.banner {
+	background: #fff url('../images/back.jpg');
+	padding-top: 150px;
+	padding-bottom: 150px;
+	text-align: center;
+}
+
+.banner h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 28px;
+	line-height: 35px;
+	color: #eee;
+	text-transform: capitalize;
+}
+.banner h3 {
+	margin-top: 20px;
+	margin-bottom: 25px;
+	font-size: 20px;
+	line-height: 25px;
+	color: #ddd;
+	text-transform: uppercase;
+	letter-spacing: 0.055em;
+}
+
+.banner .btn {
+	padding: 7px 25px;
+	font-size: 14px;
+	border-radius: 30px;
+}
+
+/*
+ * default heading
+ */
+
+.default-heading {
+	margin-bottom: 30px;
+	text-align: center;
+}
+.default-heading h2 {
+	margin-top: 0;
+	margin-bottom: 20px;
+	font-size: 32px;
+}
+.default-heading p {
+	font-size: 14px;
+	line-height: 26px;
+	text-transform: capitalize;
+	letter-spacing: 0.055em;
+}
+
+/*
+ * works
+ */
+
+.works {
+	padding-top: 120px;
+	padding-bottom: 30px;
+}
+
+.works .work-item {
+	max-width: 360px;
+	margin: 0 auto;
+	margin-top: 30px;
+	text-align: center;
+}
+.works .work-item h3 {
+	margin-top: 20px;
+	font-size: 22px;
+}
+
+.works .work-item .org {
+	display: inline-block;
+	font-size: 13px;
+	font-style: italic;
+	text-transform: uppercase;
+    align-items: center;
+}
+
+/*
+ * team
+ */
+
+.team {
+	padding-top: 120px;
+	padding-bottom: 30px;
+}
+
+.team .member {
+	max-width: 360px;
+	margin: 0 auto;
+	margin-top: 30px;
+	text-align: center;
+}
+.team .member h4 {
+	margin-top: 20px;
+	font-size: 22px;
+}
+.team .member p {
+	padding: 0 15px;
+	font-size: 14px;
+	line-height: 23px;
+}
+
+@media (max-width: 480px){
+
+}
+
+/*
+ * Tablets
+ */
+
+
+/*
+ * Desktop
+ */
+@media (max-width: 991px){
+
+}
