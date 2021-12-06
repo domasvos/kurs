@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    <a href="/testas" class="btn btn-dark">Pradeti testa</a>
+                    <a href="/quiz/klausimas" class="btn btn-dark">Pradeti testa</a>
                     <a href="/klausk" class="btn btn-dark">Forumas</a>
                 </div>
             </div>
