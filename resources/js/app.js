@@ -32,6 +32,7 @@ window.Vue = require('vue').default;
 Vue.component('header-page', require('./components/header.vue').default);
 Vue.component('begin-test', require('./components/beginTest.vue').default);
 Vue.component('klausimas-enter', require('./components/klausTest.vue').default);
+Vue.component('header-logged', require('./components/header_logged.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
