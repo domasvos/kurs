@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Kausimas 1</title>
+        <title>Testas</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -40,12 +40,12 @@
                 user-select: none;
             }
             label::before {
-                background-color: white;
-                color: white;
+                background-color: #993333;
+                color: #993333;
                 content: " ";
                 display: block;
                 border-radius: 50%;
-                border: 1px solid grey;
+                border: 1px #993333;
                 position: absolute;
                 top: -5px;
                 left: -5px;
@@ -58,11 +58,11 @@
             }
             :checked+label img {
                 transform: scale(0.9);
-                box-shadow: 0 0 5px #333;
+                box-shadow: 0 0 15px #993333;
                 z-index: -1;
             }
             :checked+label {
-                border-color: darkred;
+                border-color: #993333;
             }
 
         </style>
@@ -87,7 +87,7 @@
             <input type="checkbox" class="myCheckbox_hide" id="myCheckbox4" />
             <label for="myCheckbox4"><img src="../../../images/2.png" /> Answer D</label>
         </div>
-        <button onclick="nextQuestion()" type="button" class="btn btn-dark">Kitas klausimas</button>
+        <button onclick="nextQuestion()" type="button" class="btn btn-primary">Kitas klausimas</button>
     </div>
     <div id="klausimas_2" class="center new">
         <div class="container col-12">
@@ -102,13 +102,13 @@
             <input type="checkbox" class="myCheckbox_hide" id="myCheckbox8" />
             <label for="myCheckbox8"><img src="../../../images/2.png" /> Atsakymas D</label>
         </div>
-        <button onclick="ats()" type="button" class="btn btn-dark">Pabaigti testa</button>
+        <button onclick="ats()" type="button" class="btn btn-primary">Pabaigti testa</button>
 
     </div>
     <div id="atsakymo_pvz" class="container col-12 center new">
-        <button onclick="window.location.href='/quiz/testas'" type="button" class="btn btn-dark">Bandyti dar karta</button>
-        <button onclick="window.location.href='/istaigos'" type="button" class="btn btn-dark">Kur Stoti</button>
-        <button onclick="window.location.href='/home'" type="button" class="btn btn-dark">Paskyra</button>
+        <button onclick="window.location.href='/quiz/testas'" type="button" class="btn btn-primary">Bandyti dar karta</button>
+        <button onclick="window.location.href='/istaigos'" type="button" class="btn btn-primary">Kur Stoti</button>
+        <button onclick="window.location.href='/home'" type="button" class="btn btn-primary">Paskyra</button>
     </div>
 
     </body>
@@ -121,6 +121,21 @@
 .new {
     display: none;
 }
+</style>
+<style>
+    .card-header {
+        background-color: #993333 !important;
+        color: white !important;
+
+    }
+    .btn-primary {
+        background-color: #993333 !important;
+        border-color: #993333 !important;
+    }
+    .btn-primary:hover{
+        background-color: #ec4949 !important;
+        border-color: #ec4949 !important;
+    }
 </style>
 <script>
     function nextQuestion(){

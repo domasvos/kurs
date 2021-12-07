@@ -148,7 +148,7 @@
 </body>
 </html>
 <style>
-    .thumbnail:hover {
+    img:hover {
         position:relative;
         top:-25px;
         left:-35px;
