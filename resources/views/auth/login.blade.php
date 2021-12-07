@@ -71,3 +71,24 @@
     </div>
 </div>
 @endsection
+<style>
+.card-header {
+    background-color: #993333 !important;
+    color: white !important;
+
+}
+.btn-primary {
+    background-color: #ec4949 !important;
+    border-color: #ec4949 !important;
+}
+.btn-primary:hover{
+    background-color: #993333 !important;
+    border-color: #993333 !important;
+}
+.btn-link{
+    color: #ec4949 !important;
+}
+.btn-link:hover{
+    color: #993333 !important;
+}
+</style>

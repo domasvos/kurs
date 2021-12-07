@@ -130,63 +130,62 @@
     </div>
 
     <!-- team -->
-    <div class="team" id="team">
-        <div class="container">
-            <!-- default heading -->
-            <div class="default-heading">
-                <!-- heading -->
-                <h2>Our Team</h2>
-                <!-- paragraph -->
-                <p>There are now a set available here in three<br>colours and in a banner sizes.</p>
-            </div>
-            <div class="row">
-                <div class="col-md-3">
-                    <!-- team member -->
-                    <div class="member">
-                        <!-- team member image -->
-                        <img class="img-responsive" src="images/team/1.jpg" alt="" />
-                        <!-- member details / heading -->
-                        <h4><a href="#">John Doe</a></h4>
-                        <!-- paragraph -->
-                        <p>Short description about how cool John Doe is!</p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <!-- team member -->
-                    <div class="member">
-                        <!-- team member image -->
-                        <img class="img-responsive" src="images/team/2.jpg" alt="" />
-                        <!-- member details / heading -->
-                        <h4><a href="#">John Doe</a></h4>
-                        <!-- paragraph -->
-                        <p>Short description about how cool John Doe is!</p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <!-- team member -->
-                    <div class="member">
-                        <!-- team member image -->
-                        <img class="img-responsive" src="images/team/1.jpg" alt="" />
-                        <!-- member details / heading -->
-                        <h4><a href="#">John Doe</a></h4>
-                        <!-- paragraph -->
-                        <p>Short description about how cool John Doe is!</p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <!-- team member -->
-                    <div class="member">
-                        <!-- team member image -->
-                        <img class="img-responsive" src="images/team/2.jpg" alt="" />
-                        <!-- member details / heading -->
-                        <h4><a href="#">John Doe</a></h4>
-                        <!-- paragraph -->
-                        <p>Short description about how cool John Doe is!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+{{--    <div class="team" id="team">--}}
+{{--        <div class="container">--}}
+{{--            <!-- default heading -->--}}
+{{--            <div class="default-heading">--}}
+{{--                <!-- heading -->--}}
+{{--                <h2>Our Team</h2>--}}
+{{--                <!-- paragraph -->--}}
+{{--                <p>There are now a set available here in three<br>colours and in a banner sizes.</p>--}}
+{{--            </div>--}}
+{{--            <div class="row">--}}
+{{--                <div class="col-md-3">--}}
+{{--                    <!-- team member -->--}}
+{{--                    <div class="member">--}}
+{{--                        <!-- team member image -->--}}
+{{--                        <img class="img-responsive" src="images/team/1.jpg" alt="" />--}}
+{{--                        <!-- member details / heading -->--}}
+{{--                        <h4><a href="#">John Doe</a></h4>--}}
+{{--                        <!-- paragraph -->--}}
+{{--                        <p>Short description about how cool John Doe is!</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-md-3">--}}
+{{--                    <!-- team member -->--}}
+{{--                    <div class="member">--}}
+{{--                        <!-- team member image -->--}}
+{{--                        <img class="img-responsive" src="images/team/2.jpg" alt="" />--}}
+{{--                        <!-- member details / heading -->--}}
+{{--                        <h4><a href="#">John Doe</a></h4>--}}
+{{--                        <!-- paragraph -->--}}
+{{--                        <p>Short description about how cool John Doe is!</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-md-3">--}}
+{{--                    <!-- team member -->--}}
+{{--                    <div class="member">--}}
+{{--                        <!-- team member image -->--}}
+{{--                        <img class="img-responsive" src="images/team/1.jpg" alt="" />--}}
+{{--                        <!-- member details / heading -->--}}
+{{--                        <h4><a href="#">John Doe</a></h4>--}}
+{{--                        <!-- paragraph -->--}}
+{{--                        <p>Short description about how cool John Doe is!</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-md-3">--}}
+{{--                    <!-- team member -->--}}
+{{--                    <div class="member">--}}
+{{--                        <!-- team member image -->--}}
+{{--                        <!-- member details / heading -->--}}
+{{--                        <h4><a href="#">John Doe</a></h4>--}}
+{{--                        <!-- paragraph -->--}}
+{{--                        <p>Short description about how cool John Doe is!</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
 
 </div>
 
@@ -200,8 +199,8 @@
 <script type="text/javascript" src="{{ asset('js/html5shiv.js') }}"></script>
 <!-- Custom JS -->
 <script type="text/javascript" src="{{ asset('js/custom.js') }}"></script>
-<link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet" type="text/css" >
-<link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" >
+<link href="{{ asset('css/bs.css') }}" rel="stylesheet" type="text/css" >
+<link href="{{ asset('css/bs.min.css') }}" rel="stylesheet" type="text/css" >
 <link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" >
 </body>
 </html>
