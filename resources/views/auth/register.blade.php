@@ -83,11 +83,11 @@
 
     }
     .btn-primary {
-        background-color: #ec4949 !important;
-        border-color: #ec4949 !important;
-    }
-    .btn-primary:hover{
         background-color: #993333 !important;
         border-color: #993333 !important;
+    }
+    .btn-primary:hover{
+        background-color: #ec4949 !important;
+        border-color: #ec4949 !important;
     }
 </style>

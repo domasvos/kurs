@@ -22,9 +22,6 @@ Route::get('/kaip_istoti', function () {
 Route::get('/statistika', function () {
     return view('statistika');
 });
-Route::get('/pradinis', function () {
-    return view('pradinis_new');
-});
 Route::get('/klausk', function () {
     return view('klausk');
 });
