@@ -17,32 +17,35 @@
             const chart = new Chartisan({
                 el: '#chart',
                 data: {
-                "chart": {
-                "labels": [
-                    "First",
-                    "Second",
-                    "Third"
-                ]
-            },
-                "datasets": [
-                {
-                    "name": "Sample 1",
-                    "values": [
-                        10,
-                        3,
-                        7
+                        "chart": {
+                        "labels": [
+                            "Pirmas",
+                            "Antras",
+                            "Trecias"
+                        ]
+                    },
+                        "datasets": [
+                        {
+                            "name": "Pirmas Pavyzdys",
+                            "values": [
+                                10,
+                                3,
+                                7
+                            ]
+                        },
+                        {
+                            "name": "Antras Pavyzdys",
+                            "values": [
+                                1,
+                                6,
+                                2
+                            ]
+                        }
                     ]
                 },
-                {
-                    "name": "Sample 2",
-                    "values": [
-                        1,
-                        6,
-                        2
-                    ]
-                }
-            ]
-                }
+                hooks: new ChartisanHooks()
+                .colors(['#ec4949', '#993333'])
+                .beginAtZero(),
             })
         </script>
     </body>
