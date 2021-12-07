@@ -21,7 +21,9 @@
 </head>
 
 <body>
-
+<div id="app">
+    <header-page></header-page>
+</div>
 <div class="container">
 
     <!-- pirmas -->

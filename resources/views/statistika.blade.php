@@ -6,6 +6,9 @@
         <title>Statistika</title>
     </head>
     <body>
+    <div id="app">
+        <header-page></header-page>
+    </div>
         <!-- Chart's container -->
         <div id="chart" style="height: 300px;"></div>
         <!-- Charting library -->
@@ -50,3 +53,5 @@
         </script>
     </body>
 </html>
+<script src="{{ asset('js/app.js') }}" defer></script>
+<link href="{{ asset('css/app.css') }}" rel="stylesheet">

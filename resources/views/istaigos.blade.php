@@ -16,17 +16,10 @@
 </head>
 
 <body>
-
+<div id="app">
+    <header-page></header-page>
+</div>
 <div class="wrapper">
-
-    <!-- banner -->
-    <div class="banner">
-        <div class="container">
-            <!-- heading -->
-            <h2>Išsirink norimą mokymo įstaigą!</h2>
-        </div>
-    </div>
-    <!-- banner end -->
 
     <!-- works -->
     <div class="works" id="work">
@@ -205,3 +198,5 @@
 </body>
 </html>
 
+<script src="{{ asset('js/app.js') }}" defer></script>
+<link href="{{ asset('css/app.css') }}" rel="stylesheet">

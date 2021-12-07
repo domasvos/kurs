@@ -27,6 +27,7 @@
     },
     "dependencies": {
         "bootstrap-vue": "^2.21.2",
+        "font-awesome": "^4.7.0",
         "vue-d3-barchart": "^0.0.28"
     }
 }

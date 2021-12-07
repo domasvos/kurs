@@ -31,6 +31,9 @@ Route::get('/istaigos', function () {
 Route::get('/quiz/klausimas', function () {
     return view('/quiz/klausimas');
 });
+Route::get('/pradinis', function () {
+    return view('/pradinis');
+});
 
 Auth::routes();
 
