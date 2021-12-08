@@ -3,9 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <title>Studiju pasirinkimo sistemo</title>
-
 
     </head>
     <body class="antialiased">
@@ -19,5 +17,11 @@
     </div>
     </body>
 </html>
+<style scored>
+    .row{
+        padding-top:50px;
+    }
+</style>
 <script src="{{ mix('/js/app.js') }}"></script>
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+<link href="{{ asset('css/style.css') }}" rel="stylesheet">

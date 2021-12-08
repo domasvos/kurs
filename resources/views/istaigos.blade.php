@@ -36,7 +36,7 @@
                     <!-- work item -->
                     <div class="work-item">
                         <!-- work details image -->
-                        <img class="img-responsive" src="images/work/3.jpeg" alt="" />
+                        <a href="https://www.vdu.lt/en/"><img class="img-fluid zoom size-i-need" src="images/work/3.jpeg" alt="" /></a>
                         <!-- heading -->
                         <h3><a href="https://www.vdu.lt/en/">VDU</a></h3>
                         <!-- brand org -->
@@ -47,7 +47,7 @@
                     <!-- work item -->
                     <div class="work-item">
                         <!-- work details image -->
-                        <img class="img-responsive" src="images/work/1.jpeg" alt="" />
+                        <a href="https://ktu.edu/"><img class="img-fluid zoom size-i-need" src="images/work/ktu.png" alt="" /></a>
                         <!-- heading -->
                         <h3><a href="https://ktu.edu/">KTU</a></h3>
                         <!-- brand org -->
@@ -58,7 +58,7 @@
                     <!-- work item -->
                     <div class="work-item">
                         <!-- work details image -->
-                        <img class="img-responsive" src="images/work/2.jpeg" alt="" />
+                        <a href="https://www.vu.lt/en/"><img class="img-fluid zoom size-i-need" src="images/work/vu.png" alt="" /></a>
                         <!-- heading -->
                         <h3><a href="https://www.vu.lt/en/">VU</a></h3>
                         <!-- brand org -->
@@ -69,7 +69,7 @@
                     <!-- work item -->
                     <div class="work-item">
                         <!-- work details image -->
-                        <img class="img-responsive" src="images/work/4.jpeg" alt="" />
+                        <a href="https://vilniustech.lt/"><img class="img-fluid zoom size-i-need" src="images/work/4.jpeg" alt="" /></a>
                         <!-- heading -->
                         <h3><a href="https://vilniustech.lt/">VGTU</a></h3>
                         <!-- brand org -->
@@ -80,7 +80,7 @@
                     <!-- work item -->
                     <div class="work-item">
                         <!-- work details image -->
-                        <img class="img-responsive" src="images/work/7.jpeg" alt="" />
+                        <a href="https://www.ism.lt/en/homepage/"><img class="img-fluid zoom size-i-need" src="images/work/7.jpeg" alt="" /></a>
                         <!-- heading -->
                         <h3><a href="https://www.ism.lt/en/homepage/">ISM</a></h3>
                         <!-- brand org -->
@@ -91,7 +91,7 @@
                     <!-- work item -->
                     <div class="work-item">
                         <!-- work details image -->
-                        <img class="img-responsive" src="images/work/5.jpeg" alt="" />
+                        <a href="https://www.ku.lt/"><img class="img-fluid zoom size-i-need" src="images/work/5.jpeg" alt="" /></a>
                         <!-- heading -->
                         <h3><a href="https://www.ku.lt/">KU</a></h3>
                         <!-- brand org -->
@@ -102,7 +102,7 @@
                     <!-- work item -->
                     <div class="work-item">
                         <!-- work details image -->
-                        <img class="img-responsive" src="images/work/6.jpeg" alt="" />
+                        <a href="http://www.lsmuni.lt/"><img class="img-fluid zoom size-i-need" src="images/work/6.jpeg" alt=""/></a>
                         <!-- heading -->
                         <h3><a href="http://www.lsmuni.lt/">LSMU</a></h3>
                         <!-- brand org -->
@@ -113,7 +113,7 @@
                     <!-- work item -->
                     <div class="work-item">
                         <!-- work details image -->
-                        <img class="img-responsive" src="images/work/8.jpeg" alt="" />
+                        <a href="https://lt.ehu.lt/"><img class="img-fluid zoom size-i-need" src="images/work/8.jpeg" alt=""/></a>
                         <!-- heading -->
                         <h3><a href="https://lt.ehu.lt/">EHU</a></h3>
                         <!-- brand org -->
@@ -123,67 +123,10 @@
             </div>
         </div>
     </div>
-
-    <!-- team -->
-{{--    <div class="team" id="team">--}}
-{{--        <div class="container">--}}
-{{--            <!-- default heading -->--}}
-{{--            <div class="default-heading">--}}
-{{--                <!-- heading -->--}}
-{{--                <h2>Our Team</h2>--}}
-{{--                <!-- paragraph -->--}}
-{{--                <p>There are now a set available here in three<br>colours and in a banner sizes.</p>--}}
-{{--            </div>--}}
-{{--            <div class="row">--}}
-{{--                <div class="col-md-3">--}}
-{{--                    <!-- team member -->--}}
-{{--                    <div class="member">--}}
-{{--                        <!-- team member image -->--}}
-{{--                        <img class="img-responsive" src="images/team/1.jpg" alt="" />--}}
-{{--                        <!-- member details / heading -->--}}
-{{--                        <h4><a href="#">John Doe</a></h4>--}}
-{{--                        <!-- paragraph -->--}}
-{{--                        <p>Short description about how cool John Doe is!</p>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="col-md-3">--}}
-{{--                    <!-- team member -->--}}
-{{--                    <div class="member">--}}
-{{--                        <!-- team member image -->--}}
-{{--                        <img class="img-responsive" src="images/team/2.jpg" alt="" />--}}
-{{--                        <!-- member details / heading -->--}}
-{{--                        <h4><a href="#">John Doe</a></h4>--}}
-{{--                        <!-- paragraph -->--}}
-{{--                        <p>Short description about how cool John Doe is!</p>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="col-md-3">--}}
-{{--                    <!-- team member -->--}}
-{{--                    <div class="member">--}}
-{{--                        <!-- team member image -->--}}
-{{--                        <img class="img-responsive" src="images/team/1.jpg" alt="" />--}}
-{{--                        <!-- member details / heading -->--}}
-{{--                        <h4><a href="#">John Doe</a></h4>--}}
-{{--                        <!-- paragraph -->--}}
-{{--                        <p>Short description about how cool John Doe is!</p>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="col-md-3">--}}
-{{--                    <!-- team member -->--}}
-{{--                    <div class="member">--}}
-{{--                        <!-- team member image -->--}}
-{{--                        <!-- member details / heading -->--}}
-{{--                        <h4><a href="#">John Doe</a></h4>--}}
-{{--                        <!-- paragraph -->--}}
-{{--                        <p>Short description about how cool John Doe is!</p>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </div>--}}
-
 </div>
+<style scoped>
 
+</style>
 
 <!-- Javascript files -->
 <!-- jQuery -->
@@ -199,3 +142,4 @@
 <script src="{{ asset('js/app.js') }}" defer></script>
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+

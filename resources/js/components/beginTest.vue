@@ -1,14 +1,18 @@
 <template>
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <div class="card">
-                    <div class="card-header">Testo parinktys</div>
-                    <div class="card-body">
-                        <a href="/quiz/klausimas" class="btn btn-primary">Pradeti testa</a>
-                        <a href="/info" class="btn btn-primary">Kaip atlikti testa</a>
-                    </div>
-                </div>
+        <div class="row">
+            <div class="col-md-6 rounded work-item zoom">
+                <a href="/quiz/klausimas">
+                <img class="img-fluid zoom rounded testing" src="/images/a/brain.jpg" alt=""/>
+                <h3 class="centered">Bandyti testą</h3>
+                </a>
+            </div>
+            <div class="col-md-6 rounded work-item zoom">
+                <a href="/quiz/info">
+                    <img class="img-fluid zoom rounded testing" src="/images/a/question.jpg" alt=""/>
+                    <h3 class="centered">Kaip atlikti testą</h3>
+                </a>
+
             </div>
         </div>
     </div>
@@ -24,16 +28,4 @@
 
 <style scoped>
 @import "../../css/app.css";
-.card-header{
-    background-color: #993333 !important;
-    color: white !important;
-}
-.btn-primary {
-    background-color: #993333 !important;
-    border-color: #993333 !important;
-}
-.btn-primary:hover{
-    background-color: #ec4949 !important;
-    border-color: #ec4949 !important;
-}
 </style>

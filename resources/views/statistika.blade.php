@@ -13,8 +13,10 @@
             <header-logged :user={{ auth()->user() }}></header-logged>
         @endguest
     </div>
+    <div class="wrapper">
         <!-- Chart's container -->
-        <div id="chart" style="height: 300px;"></div>
+        <div id="chart" style="height: 500px;"></div>
+        <div id="chart2" style="height: 500px;"></div>
         <!-- Charting library -->
         <script src="https://unpkg.com/chart.js@2.9.3/dist/Chart.min.js"></script>
         <!-- Chartisan -->
@@ -24,38 +26,111 @@
             const chart = new Chartisan({
                 el: '#chart',
                 data: {
-                        "chart": {
+                    "chart": {
                         "labels": [
-                            "Pirmas",
-                            "Antras",
-                            "Trecias"
+                            "Veterinarija",
+                            "Neurochirurgija",
+                            "Taikomoji matematika",
+                            "Programu sistemos",
+                            "Multimedijos ir interneto technologijos"
                         ]
+
                     },
-                        "datasets": [
+                    "datasets": [
                         {
-                            "name": "Pirmas Pavyzdys",
+                            "name": "Minimalus stojamasis balas",
                             "values": [
-                                10,
-                                3,
-                                7
+                                8.4,
+                                9.2,
+                                7,
+                                6,
+                                5.2
                             ]
                         },
                         {
-                            "name": "Antras Pavyzdys",
+                            "name": "Rekomenduojamas balas",
                             "values": [
-                                1,
-                                6,
-                                2
+                                9,
+                                9.8,
+                                8,
+                                7.2,
+                                6
                             ]
                         }
                     ]
                 },
                 hooks: new ChartisanHooks()
-                .colors(['#ec4949', '#993333'])
-                .beginAtZero(),
+                    .colors(['#ec4949', '#993333'])
+                    .beginAtZero()
+                    .title(
+                        {
+                            text: 'Konkursinio balo reikalavimai studijų kryptims',
+                            fontSize: '15',
+                            fontWeight: 'bold',
+                            fontFamily: '"Nunito", sans-serif',
+                        }
+                    )
             })
         </script>
+        <script>
+            const chart2 = new Chartisan({
+                el: '#chart',
+                data: {
+                    "chart": {
+                        "labels": [
+                            "Veterinarija",
+                            "Neurochirurgija",
+                            "Taikomoji matematika",
+                            "Programu sistemos",
+                            "Multimedijos ir interneto technologijos"
+                        ]
+
+                    },
+                    "datasets": [
+                        {
+                            "name": "Didelis stojamasis balas",
+                            "values": [
+                                8.4,
+                                9.2,
+                                7,
+                                6,
+                                5.2
+                            ]
+                        },
+                        {
+                            "name": "Rekomenduojamas",
+                            "values": [
+                                9,
+                                9.8,
+                                8,
+                                7.2,
+                                6
+                            ]
+                        }
+                    ]
+                },
+                hooks: new ChartisanHooks()
+                    .colors(['#ec4949', '#993333'])
+                    .beginAtZero()
+                    .title(
+                        {
+                            text: 'Konkursinio balo reikalavimai studijų kryptims',
+                            fontSize: '15',
+                            fontWeight: 'bold',
+                            fontFamily: '"Nunito", sans-serif',
+                        }
+                    )
+            })
+        </script>
+    </div>
+
     </body>
 </html>
+<style scoped>
+    .wrapper {
+        padding-top: 50px;
+    }
+</style>
 <script src="{{ asset('js/app.js') }}" defer></script>
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+<link href="{{ asset('css/style.css') }}" rel="stylesheet">

@@ -519,3 +519,37 @@ header .navbar-nav>li>a {
 .header-dark .navbar .action-button:hover {
     background:#993333;
 }
+
+.zoom:hover {
+    transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    z-index: 1;
+}
+
+.zoom {
+    transition: transform .2s;
+    margin: 0 auto;
+}
+.size-i-need{
+    height: 250px;
+    width: 250px;
+}
+.testing {
+    max-height: 340px;
+    max-width: 600px;
+    min-height: 140px;
+    min-width: 200px;
+    border-radius: 15px;
+    filter: blur(8px);
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px #993333;
+}
+.img-text{
+
+}
+
