@@ -57,7 +57,6 @@
             :checked+label {
                 border-color: #993333;
             }
-
         </style>
 
         <style>
@@ -73,44 +72,8 @@
         @else
             <header-logged :user={{ auth()->user() }}></header-logged>
         @endguest
+        <klausimas-enter></klausimas-enter>
     </div>
-    <div id="klausimas_1" class="center">
-        <div class="container col-12">
-            <input type="checkbox" class="myCheckbox_hide" id="myCheckbox1" />
-            <label for="myCheckbox1"><img src="../../../images/2.png" /> Answer A</label>
-            <input type="checkbox" class="myCheckbox_hide" id="myCheckbox2" />
-            <label for="myCheckbox2"><img src="../../../images/2.png" /> Answer B</label>
-        </div>
-        <div class="container col-12">
-            <input type="checkbox" class="myCheckbox_hide" id="myCheckbox3" />
-            <label for="myCheckbox3"><img src="../../../images/2.png" /> Answer C</label>
-            <input type="checkbox" class="myCheckbox_hide" id="myCheckbox4" />
-            <label for="myCheckbox4"><img src="../../../images/2.png" /> Answer D</label>
-        </div>
-        <button onclick="nextQuestion()" type="button" class="btn btn-primary">Kitas klausimas</button>
-    </div>
-    <div id="klausimas_2" class="center new">
-        <div class="container col-12">
-            <input type="checkbox" class="myCheckbox_hide" id="myCheckbox5" />
-            <label for="myCheckbox5"><img src="../../../images/2.png" /> Atsakymas A</label>
-            <input type="checkbox" class="myCheckbox_hide" id="myCheckbox6" />
-            <label for="myCheckbox6"><img src="../../../images/2.png" /> Atsakymas B</label>
-        </div>
-        <div class="container col-12">
-            <input type="checkbox" class="myCheckbox_hide" id="myCheckbox7" />
-            <label for="myCheckbox7"><img src="../../../images/2.png" /> Atsakymas C</label>
-            <input type="checkbox" class="myCheckbox_hide" id="myCheckbox8" />
-            <label for="myCheckbox8"><img src="../../../images/2.png" /> Atsakymas D</label>
-        </div>
-        <button onclick="ats()" type="button" class="btn btn-primary">Pabaigti testa</button>
-
-    </div>
-    <div id="atsakymo_pvz" class="container col-12 center new">
-        <button onclick="window.location.href='/quiz/testas'" type="button" class="btn btn-primary">Bandyti dar karta</button>
-        <button onclick="window.location.href='/istaigos'" type="button" class="btn btn-primary">Kur Stoti</button>
-        <button onclick="window.location.href='/home'" type="button" class="btn btn-primary">Paskyra</button>
-    </div>
-
     </body>
 </html>
 <script src="{{ mix('/js/app.js') }}"></script>
@@ -123,18 +86,8 @@
 }
 </style>
 <style>
-    .card-header {
-        background-color: #993333 !important;
-        color: white !important;
-
-    }
-    .btn-primary {
-        background-color: #993333 !important;
-        border-color: #993333 !important;
-    }
-    .btn-primary:hover{
-        background-color: #ec4949 !important;
-        border-color: #ec4949 !important;
+    .row {
+        padding-top: 50px;
     }
 </style>
 <script>
@@ -149,3 +102,4 @@
 </script>
 
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+<link href="{{ asset('css/style.css') }}" rel="stylesheet">

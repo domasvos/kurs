@@ -28,7 +28,7 @@
     <header-logged :user={{ auth()->user() }}></header-logged>
         @endguest
 </div>
-<div class="container">
+<div class="container extra">
 
     <!-- pirmas -->
     <section class="row tm-section">
@@ -182,8 +182,8 @@
         font-style: italic;
     }
 
-    .container {
-        margin-top: 30px;
+    .extra {
+        margin-top: 1px;
     }
 
     .tm-container-inner {
@@ -488,3 +488,6 @@
 <script src="{{ asset('js/app.js') }}" defer></script>
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+<style scoped>
+
+</style>

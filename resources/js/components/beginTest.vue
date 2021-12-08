@@ -4,13 +4,13 @@
             <div class="col-md-6 rounded work-item zoom">
                 <a href="/quiz/klausimas">
                 <img class="img-fluid zoom rounded testing" src="/images/a/brain.jpg" alt=""/>
-                <h3 class="centered">Bandyti testą</h3>
+                <h3 class="centered img-text">Bandyti testą</h3>
                 </a>
             </div>
             <div class="col-md-6 rounded work-item zoom">
                 <a href="/quiz/info">
                     <img class="img-fluid zoom rounded testing" src="/images/a/question.jpg" alt=""/>
-                    <h3 class="centered">Kaip atlikti testą</h3>
+                    <h3 class="centered img-text">Kaip atlikti testą</h3>
                 </a>
 
             </div>
