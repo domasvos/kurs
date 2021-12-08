@@ -37,3 +37,5 @@
         border-color: #ec4949 !important;
     }
 </style>
+
+<link href="{{ asset('css/app.css') }}" rel="stylesheet">

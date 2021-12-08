@@ -34,6 +34,7 @@ Route::get('/quiz/klausimas', function () {
 Route::get('/pradinis', function () {
     return view('/pradinis');
 });
+Route::get('logout', [App\Http\Controllers\Auth\LoginController::class, 'logout']);
 
 Auth::routes();
 

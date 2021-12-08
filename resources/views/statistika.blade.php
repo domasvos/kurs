@@ -7,7 +7,11 @@
     </head>
     <body>
     <div id="app">
-        <header-page></header-page>
+        @guest
+            <header-page></header-page>
+        @else
+            <header-logged :user={{ auth()->user() }}></header-logged>
+        @endguest
     </div>
         <!-- Chart's container -->
         <div id="chart" style="height: 300px;"></div>

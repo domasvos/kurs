@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Studijų pasirinkimo sistema</title>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
@@ -22,7 +22,11 @@
 
 <body>
 <div id="app">
-    <header-page></header-page>
+    @guest
+        <header-page></header-page>
+    @else
+    <header-logged :user={{ auth()->user() }}></header-logged>
+        @endguest
 </div>
 <div class="container">
 
@@ -483,3 +487,4 @@
 </style>
 <script src="{{ asset('js/app.js') }}" defer></script>
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+<link href="{{ asset('css/style.css') }}" rel="stylesheet">

@@ -10,14 +10,16 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="{{ asset('css/font-awesome.min.css') }}" rel="stylesheet" type="text/css" >
-
     <link rel="shortcut icon" href="#">
 </head>
 
 <body>
 <div id="app">
-    <header-page></header-page>
+    @guest
+        <header-page></header-page>
+    @else
+        <header-logged :user={{ auth()->user() }}></header-logged>
+    @endguest
 </div>
 <div class="wrapper">
 
@@ -192,11 +194,8 @@
 <script type="text/javascript" src="{{ asset('js/html5shiv.js') }}"></script>
 <!-- Custom JS -->
 <script type="text/javascript" src="{{ asset('js/custom.js') }}"></script>
-<link href="{{ asset('css/bs.css') }}" rel="stylesheet" type="text/css" >
-<link href="{{ asset('css/bs.min.css') }}" rel="stylesheet" type="text/css" >
-<link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" >
 </body>
 </html>
-
 <script src="{{ asset('js/app.js') }}" defer></script>
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+<link href="{{ asset('css/style.css') }}" rel="stylesheet">
