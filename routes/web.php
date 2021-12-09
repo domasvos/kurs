@@ -22,9 +22,7 @@ Route::get('/kaip_istoti', function () {
 Route::get('/statistika', function () {
     return view('statistika');
 });
-Route::get('/klausk', function () {
-    return view('klausk');
-});
+
 Route::get('/istaigos', function () {
     return view('istaigos');
 });
@@ -40,4 +38,4 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/quiz/testas', [App\Http\Controllers\QuizController::class, 'create'])->middleware('auth');
-Route::get('/klausk', [App\Http\Controllers\HomeController::class, 'index'])->middleware('auth');
+
