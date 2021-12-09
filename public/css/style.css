@@ -549,5 +549,16 @@ header .navbar-nav>li>a {
     color: white;
     text-shadow: 2px 2px 4px #993333;
 }
-
+h3 {
+    color: #993333;
+    padding-top: 15px;
+}
+h4 {
+    color: #ec4949;
+    padding-top: 15px;
+}
+p {
+    color: #ec4949;
+    padding-top: 15px;
+}
 

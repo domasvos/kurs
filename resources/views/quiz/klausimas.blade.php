@@ -77,6 +77,7 @@
     </body>
 </html>
 <script src="{{ mix('/js/app.js') }}"></script>
+<script src="{{ asset('/js/custom.js') }}"></script>
 <style>
 .center {
     text-align: center;
@@ -90,16 +91,6 @@
         padding-top: 50px;
     }
 </style>
-<script>
-    function nextQuestion(){
-        document.getElementById("klausimas_1").style.display="none";
-        document.getElementById("klausimas_2").style.display="block";
-    }
-    function ats(){
-        document.getElementById("klausimas_2").style.display="none";
-        document.getElementById("atsakymo_pvz").style.display="block";
-    }
-</script>
 
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 <link href="{{ asset('css/style.css') }}" rel="stylesheet">
