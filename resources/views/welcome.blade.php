@@ -101,14 +101,14 @@
 
     <!-- forumas -->
     <section class="row tm-section tm-col-md-reverse">
-        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0 text-center">
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0 text-center mb-4">
             <img src="images/forum.jpg" alt="Image" class="img-fluid">
         </div>
         <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
             <div class="tm-flex-center p-5">
                 <div class="tm-flex-center tm-flex-col">
                     <h2 class="tm-align-left">Forumas</h2>
-                    <p>Trūksta informacijos? Klausk kitų mokslinčių informacijos!</p>
+                    <p class="mb-4">Trūksta informacijos? Klausk kitų mokslinčių informacijos!</p>
                     <a href="/klausk" class="btn btn-primary">Klausti</a>
                 </div>
             </div>
@@ -154,15 +154,6 @@
 </body>
 </html>
 <style>
-    img:hover {
-        position:relative;
-        top:-25px;
-        left:-35px;
-        width: 615px;
-        height:425px;
-        display:block;
-        z-index:999;
-    }
     body {
         font-family: 'Open Sans', Helvetica, Arial, sans-serif;
         font-size: 18px;
@@ -251,7 +242,7 @@
     .tm-bg-color-gray { background-color: #666666; }
     .tm-text-color-primary { color: #993333; }
     .tm-text-color-white { color: white; }
-    .tm-text-color-gray { color: #666666; }
+    .tm-text-color-gray { color: #ec4949; }
     .tm-font-thin { font-weight: 300; }
     .tm-max-w-400 { max-width: 400px; }
 
