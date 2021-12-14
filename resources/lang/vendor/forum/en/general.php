@@ -32,7 +32,7 @@ return [
     'quick_reply' => 'Greitas atsakymas',
     'rename' => 'Pervadinti',
     'replies' => 'Atsakymai',
-    'reply' => 'Atsakymas',
+    'reply' => 'Atsakyti',
     'reply_added' => 'Atsakyta',
     'replying_to' => "Jūs atsakote į :item",
     'response_to' => 'Atsakant į :item',
