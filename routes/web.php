@@ -32,10 +32,12 @@ Route::get('/quiz/klausimas', function () {
 Route::get('/pradinis', function () {
     return view('/pradinis');
 });
+Route::get('/quiz/testas', function () {
+    return view('/quiz/testas');
+});
 Route::get('logout', [App\Http\Controllers\Auth\LoginController::class, 'logout']);
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/quiz/testas', [App\Http\Controllers\QuizController::class, 'create'])->middleware('auth');
 

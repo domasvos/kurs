@@ -65,7 +65,7 @@
     <!-- kaip istoti -->
     <section class="row tm-section tm-col-md-reverse">
         <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0 text-center">
-            <img src="images/testas.jpg" alt="Image" class="img-fluid">
+            <img src="images/stud.jpg" alt="Image" class="img-fluid">
         </div>
         <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
             <div class="tm-flex-center p-5">
@@ -101,7 +101,7 @@
 
     <!-- forumas -->
     <section class="row tm-section tm-col-md-reverse">
-        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0 text-center mb-4">
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0 text-center">
             <img src="images/forum.jpg" alt="Image" class="img-fluid">
         </div>
         <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
@@ -129,7 +129,7 @@
         <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0">
             <div class="tm-flex-center p-5 tm-bg-color-primary">
                 <div class="tm-max-w-400 tm-flex-center tm-flex-col">
-                    <img src="img/image-04.jpg" alt="Image" class="rounded-circle mb-4">
+                    <img src="images/chart.png" alt="Image" class="rounded-circle mb-4">
                     <p class="tm-text-color-white small tm-font-thin mb-0">Nullam eleifend, ipsum eu aliquet fermentum , odio urna dignissim ante, semper maximus libero nisl non nibh.</p>
                 </div>
             </div>
@@ -155,7 +155,6 @@
 </html>
 <style>
     body {
-        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
         font-size: 18px;
         color: #666666;
         background-color: #f4f4f4;
