@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/style.css') }}" rel="stylesheet">
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Statistika</title>
@@ -13,7 +15,7 @@
             <header-logged :user={{ auth()->user() }}></header-logged>
         @endguest
     </div>
-    <div class="wrapper">
+    <div class="wrapper container">
         <!-- Chart's container -->
         <div id="chart" style="height: 500px;"></div>
         <div id="chart2" style="height: 500px;"></div>

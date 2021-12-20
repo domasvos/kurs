@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Studijų pasirinkimo sistema</title>
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
     <script>
         var renderPage = true;
 
@@ -71,7 +71,7 @@
             <div class="tm-flex-center p-5">
                 <div class="tm-flex-center tm-flex-col">
                     <h2 class="tm-align-left">Kaip įstoti?</h2>
-                    <p>Sužinok visą aktualiausią informaciją, kaip galima įstoti į norimas studijas bei pateikti dokumentus į norimą mokymo įstaigą!</p>
+                    <p class="mb-4">Sužinok visą aktualiausią informaciją, kaip galima įstoti į norimas studijas bei pateikti dokumentus į norimą mokymo įstaigą!</p>
                     <a href="kaip_istoti" class="btn btn-primary">Kaip įstoti</a>
                 </div>
             </div>
@@ -136,8 +136,7 @@
         </div>
     </section>
 
-    <!-- load JS -->
-    <script src="js/jquery-3.2.1.slim.min.js"></script>         <!-- https://jquery.com/ -->
+    <script src="{{ asset('js/jquery-3.2.1.slim.min.js') }}" defer></script>
     <script>
 
         /* DOM is ready

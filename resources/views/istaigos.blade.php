@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <meta charset="utf-8">
     <title>Mokymo įstaigos</title>
     <!-- Description, Keywords and Author -->
